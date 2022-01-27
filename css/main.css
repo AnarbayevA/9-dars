@@ -711,7 +711,6 @@ p {
     display: -ms-flexbox;
     display: flex;
     margin-left: 0;
-    border: 1px solid white;
   }
   .footer__logo-image {
     display: none;
