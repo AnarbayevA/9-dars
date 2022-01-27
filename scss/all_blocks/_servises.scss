@@ -1,0 +1,188 @@
+.servises {
+    margin-bottom: 380px;
+}
+
+.servises__container {
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #282F38;
+    border-radius: 8px;
+}
+
+.servises__hidden {
+    margin: 0;
+    padding: 0;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+    margin-top: 100px;
+}
+
+.servises__text {
+    max-width: 540px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color:#FEFCF7;
+    opacity: 0.8;
+    margin-bottom: 86px;
+}
+
+.servises__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -160px;  
+}
+
+.servises__item {
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 47px 48px 47px;
+    background-color: #0E8784;
+    border-radius: 8px;
+}
+
+.servises__item + .servises__item {
+    margin-left: 30px;
+}
+
+.servises__logo1 {
+    max-width: 71px;
+    height: 72px;
+    margin-bottom: 56px;
+}
+
+.servises__logo2 {
+    max-width: 72px;
+    height: 72px;
+    margin-bottom: 56px;
+}
+
+.servises__logo3 {
+    max-width: 72px;
+    height: 50px;
+    margin-bottom: 56px;
+}
+
+.servises__item-hidden{
+    margin-bottom: 24px;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;    
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.servises__item-text {
+    max-width: 255px;
+    font-family: Barlow;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+@media only screen and (max-width:1147px){
+    .servises {
+
+		&__container {
+            justify-content: center;
+		}
+
+		&__hidden {
+		}
+
+		&__text {
+		}
+
+		&__list {
+            justify-content: center;
+		}
+
+		&__item {
+            margin-bottom: 20px;
+		}
+
+		&__logo1 {
+		}
+
+        
+
+		&__item-hidden {
+		}
+
+		&__item-text {
+		}
+
+		&__logo2 {
+		}
+
+		&__logo3 {
+		}
+}
+
+
+}
+
+@media only screen and (max-width:770px){
+    .servises {
+
+		&__container {
+		}
+
+		&__hidden {
+		}
+
+		&__text {
+		}
+
+		&__list {
+            flex-direction: row;
+		}
+
+		&__item {
+            margin-left: 30PX;
+            
+            
+		}
+
+        
+
+        
+
+		&__logo1 {
+		}
+
+		&__item-hidden {
+		}
+
+		&__item-text {
+		}
+
+		&__logo2 {
+		}
+
+		&__logo3 {
+		}
+}
+
+}
+
+

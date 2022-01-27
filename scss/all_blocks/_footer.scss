@@ -1,0 +1,180 @@
+.footer{
+    margin-bottom: 135px;
+}
+
+.footer__container {
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:#2C343E; 
+    padding-top: 47px;
+    padding-bottom: 49px;
+}
+
+.footer__left-side {
+    max-width: 622px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 66px;
+}
+
+.footer__logo-link{
+    text-decoration: none;
+    margin-right: 103px;
+}
+
+.footer__logo-image{
+    width: 236px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+.footer__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__item + .footer__item{
+    margin-left: 32px;
+}
+
+.footer__item-link {
+    font-family: Barlow;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.footer__item-link-hover:hover{
+    color: #FEFCF7;
+}
+
+.footer__right-side {
+   
+    margin-right: 65px;
+}
+
+.footer__app-link + .footer__app-link{
+    margin-left: 24px;
+}
+
+.right-side__image{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width:927px){
+    .footer {
+
+		&__container {
+		}
+
+		&__left-side {
+            display: flex;
+            margin-left: 0;
+            border: 1px solid white;
+		}
+
+		&__logo-link {
+		}
+
+		&__logo-image {
+            display: none;
+            margin: 0;
+		}
+
+		&__list {
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+		&__item {
+            
+		}
+
+		&__item-link {
+		}
+
+		&__item-link-hover {
+		}
+
+		&__right-side {
+		}
+
+		&__app-link {
+		}
+}
+
+.right-side {
+
+		&__image {
+		}
+}
+
+
+}
+
+@media only screen and (max-width:620px){
+
+    .footer {
+
+		&__container {
+		}
+
+		&__left-side {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+		}
+
+		&__logo-link {
+		}
+
+		&__logo-image {
+		}
+
+		&__list {
+            margin-bottom: 20px;
+		}
+
+		&__item {
+		}
+
+		&__item-link {
+		}
+
+		&__item-link-hover {
+		}
+
+		&__right-side {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+		}
+
+
+		&__app-link {
+            margin: 0;
+            
+		}
+}
+.container {
+}
+.right-side {
+
+		&__image {
+
+		}
+}
+
+
+}

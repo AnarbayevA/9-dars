@@ -1,0 +1,86 @@
+.collection{
+    margin-bottom: 200px;
+}
+
+.collection__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./../images/background-types-coffee.png");
+    background-repeat: no-repeat;
+    background-position: calc(50%) -62px;
+    padding-top: 62px;
+}  
+
+.collection__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.collection__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.collection__item {
+    max-width: 255px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px; 
+    margin-left: 15px;
+}
+
+.collection__item__image {
+    width: 255px;
+    height: 193px;
+    margin-bottom: 67px;
+}
+
+.collection__hidden  {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    color: #333D4B;
+}
+
+.collection__text {
+    font-family: Barlow;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+
+@media only screen and (max-width:1180px){
+    .collection {
+
+		&__container {
+            
+		}
+
+        &__wrapper{
+           
+        }
+
+		&__list {
+            
+		}
+
+		&__item {
+		}
+
+		&__hidden {
+		}
+
+		&__text {
+		}
+}
+}

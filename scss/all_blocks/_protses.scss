@@ -1,0 +1,190 @@
+.protses {
+    margin-bottom: 200px;
+}
+
+.protses__container{
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.protses__box-wrapper{
+    margin-left: 34px;
+}
+
+.protses__heading {
+    margin-bottom: 80px;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.protses__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+
+.protses__item {
+    max-width: 380px;
+}
+
+.protses__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 67px;
+}
+
+.protses__circle {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    border: 2px solid hsl(179, 81%, 29%);
+    border-radius: 50%;
+}
+
+.protses__line {
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #FDD6BA;
+    flex-grow: 1;
+}
+
+.protses__number {
+    margin-bottom: 28px;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.protses__inner-heading {
+    max-width: 255px;
+    margin-bottom: 42px;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.protses__text {
+    max-width: 285px;
+    margin-right: 95px;
+    font-family: Barlow;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.protses__button--hover:hover{
+    background: #66D2CF;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width:1214px){
+    .protses {
+
+		&__container {
+		}
+
+		&__box-wrapper {
+		}
+
+		&__heading {
+		}
+
+		&__list {
+		}
+
+		&__item {
+            margin-bottom: 50px;
+		}
+
+		&__inner {
+		}
+
+		&__circle {
+		}
+
+        &__line--none{
+           display: none;
+        }
+
+		&__line {
+		}
+
+		&__number {
+		}
+
+		&__inner-heading {
+		}
+
+		&__text {
+		}
+
+		&__button--hover {
+		}
+}
+
+}
+
+@media only screen and (max-width:834px){
+    .protses {
+
+		&__container {
+		}
+
+		&__box-wrapper {
+            justify-content: center;
+            align-items: center;
+		}
+
+        &__heading-wrapper{
+            display: inline-block;
+        }
+
+		&__heading {
+            
+		}
+
+		&__list {
+            
+		}
+
+		&__item {
+
+		}
+
+		&__inner {
+		}
+
+		&__circle {
+		}
+
+		&__line {
+            display: none;
+		}
+
+		&__number {
+		}
+
+		&__inner-heading {
+		}
+
+		&__text {
+		}
+
+		&__button--hover {
+		}
+}
+
+}
